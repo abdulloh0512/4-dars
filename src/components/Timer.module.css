@@ -1,0 +1,57 @@
+.timer {
+  height: 366px;
+  width: 366px;
+  cursor: pointer;
+  border-radius: 1000px;
+  background-color: #ffffff;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.timerWrapper {
+  height: 410px;
+  width: 410px;
+  border-radius: 1000px;
+
+  position: relative;
+
+  background: white;
+  box-shadow: white;
+}
+
+.label {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.label h3 {
+  margin-top: 18px;
+}
+
+.redOrange:hover h3 {
+  color: var(--redOrange);
+}
+.aqua:hover h3 {
+  color: var(--aqua);
+}
+.magenta:hover h3 {
+  color: var(--magenta);
+}
+
+@media (max-width: 37.5em) {
+  .timer {
+    width: 268px;
+    height: 268px;
+  }
+
+  .timerWrapper {
+    width: 300px;
+    height: 300px;
+  }
+}

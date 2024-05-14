@@ -1,0 +1,38 @@
+.circle {
+  fill: none;
+  stroke: none;
+
+}
+
+.pathElapsed {
+  stroke-width: 1px;
+  stroke: #ffffff;
+}
+
+.pathRemaining {
+  stroke-width: 1px;
+
+  stroke-linecap: round;
+
+  transform: rotate(90deg);
+  transform-origin: center;
+
+  transition: 1s linear all;
+
+  stroke: blue;
+  
+}
+
+.redOrange {
+  stroke: var(--redOrange);
+}
+.aqua {
+  stroke: var(--aqua);
+}
+.magenta {
+  stroke: var(--magenta);
+}
+
+.svg {
+  transform: scaleX(-1);
+}
